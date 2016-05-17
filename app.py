@@ -8,6 +8,7 @@ MAY 2016
 
 # Import necessary external libraries
 import RPi.GPIO as GPIO
+import requests
 from flask import Flask
 
 # Lets create an instance of a Flask app
@@ -22,7 +23,7 @@ GPIO.setup(led_pin, GPIO.OUT)
 
 # Defining flask routes
 @app.route("/on/")
-def on():
+def led_on():
     """
     Turn on LED pin 4 to ON any request to http://<server>/on
     :return:
@@ -32,7 +33,7 @@ def on():
 
 
 @app.route("/off/")
-def off():
+def led_off():
     """
     Turn on LED pin 4 to ON any request to http://<server>/off
     :return:
@@ -41,22 +42,33 @@ def off():
     return "Light is Off"
 
 
+@app.route("/ipinfo/")
+def ip_info():
+    """
+    Makes a GET request using requests library to http://jsonip.com/ then dumps response
+    :return:
+    """
+    # Make a request to external API
+    r = requests.get('http://jsonip.com/')
+    return r.text
+
+
 @app.route("/")
 def hello():
     """
     Hello World!
     :return:
     """
-    return "Hello World!"
+    return "<h1> Tinker Tank V: Python</h1><p>Hola Amigos</p>"
 
 
 # Some simple error Catching
 @app.errorhandler(404)
 def page_not_found(error):
-    return "404 - Not Found"
+    return "Doh.. {}".format(error)
 
 
-# This block of code executes when the program is called directly ( not in an interpreter)
+# This block of code executes when the program is called directly (i.e. not via interpreter)
 if __name__ == "__main__":
     # Turns on debug mode
     app.debug = True
