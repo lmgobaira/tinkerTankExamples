@@ -34,14 +34,13 @@ Follow [this](http://docs.python-guide.org/en/latest/starting/install/win/) guid
 3. Find the drive and you should find several files on the Card (note it a lot smaller than you’d expect since it is only the boot section of the Card (the rest is hidden)).
 4. Make a copy of cmdline.txt and rename it cmdline.normal
 5. Edit cmdline.txt and add the IP address at the end (be sure you don’t add any extra lines).
+6. Return the card to the Raspberry Pi.   Attach the network cable attached to both the computer and Raspberry Pi and power up.
 
-For network settings where the IP address is obtained automatically, use an address in the range 169.254.X.X (169.254.0.0 – 169.254.255.255):
+For network settings where the IP address is obtained automatically (DHCP), use an address in the range 169.254.X.X (169.254.0.0 – 169.254.255.255):
 
     ip=169.254.0.2
 
 **Ensure you take note of this IP address** (you will need it every time you want to directly connect to the Raspberry Pi).
-
-6. Return the card to the Raspberry Pi.   Attach the network cable attached to both the computer and Raspberry Pi and power up.
 
 **NOTE THE FOLLOWING:**
 
