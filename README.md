@@ -26,7 +26,7 @@ Follow [this](http://docs.python-guide.org/en/latest/starting/install/win/) guid
 
 **Note:** OSX and Linux based machines come with python preinstalled to verify what version you are running open a terminal and type the following:
 
-    `python --version`
+    python --version
 
 If Python is setup correctly on your machine the command will respond with the active python version information.
 
