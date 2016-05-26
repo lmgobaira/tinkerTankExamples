@@ -2,7 +2,11 @@ Tinker Tank Meetup V : Python and Pi
 ==================
 ## Summary
 
-TODO :: Summarize
+This repository contains example python code, PyCharm IDE settings, and various supporting materials for  Miami - Tinker Tank V: Python Meetup on May 31st 2016.
+
+Feel free to join the #python-meetup slack channel if you have any questions, comments, or concerns.
+
+A simple example flask app is contained within the app.py file.
 
 
 Prerequisites
@@ -19,6 +23,12 @@ Prerequisites
 
 ### Setting up Python on Windows Development Machines
 Follow [this](http://docs.python-guide.org/en/latest/starting/install/win/) guide to install python on Windows machines.
+
+**Note:** OSX and Linux based machines come with python preinstalled to verify what version you are running open a terminal and type the following:
+
+    `python --version`
+
+If python is setup correctly on your machine the command will respond with the active python version information.
 
 
 ### Setting up PyCharm IDE
