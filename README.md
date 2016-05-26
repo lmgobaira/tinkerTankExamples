@@ -32,9 +32,7 @@ Follow [this](http://docs.python-guide.org/en/latest/starting/install/win/) guid
 1. Ensure the Raspberry Pi is powered off, and remove the SD-Card.
 2. Insert the SD-Card into a card reader and plug it into your laptop.
 3. Find the drive and you should find several files on the Card (note it a lot smaller than you’d expect since it is only the boot section of the Card (the rest is hidden)).
-
 4. Make a copy of cmdline.txt and rename it cmdline.normal
-
 5. Edit cmdline.txt and add the IP address at the end (be sure you don’t add any extra lines).
 
 For network settings where the IP address is obtained automatically, use an address in the range 169.254.X.X (169.254.0.0 – 169.254.255.255):
@@ -47,16 +45,6 @@ For network settings where the IP address is obtained automatically, use an addr
 
 **NOTE THE FOLLOWING:**
 
-+You will need to wait for your computer to finish detecting the network settings (you may see a small networking icon flashing in your system tray while it does, or open up the network settings to see when it has finished and has an IP address) – it can take around 1/2 minute.  Your computer may report the connection as  “limited or no connection” when connected to the Raspberry Pi in this way, this is normal as indicates it is a direct computer to computer connection rather than a standard network.
++ You will need to wait for your computer to finish detecting the network settings (you may see a small networking icon flashing in your system tray while it does, or open up the network settings to see when it has finished and has an IP address) – it can take around 1/2 minute.  Your computer may report the connection as  “limited or no connection” when connected to the Raspberry Pi in this way, this is normal as indicates it is a direct computer to computer connection rather than a standard network.
 
-+If you forget or decide not to plug in the network cable, the Raspberry Pi will wait 2 minutes (or until you connect the cable) before completing it’s start-up (so if you only have a keyboard and monitor attached, you need to wait!).
-
-
-
-### Remote Programming using PyCharm
-[Source](http://www.codeproject.com/Tips/987276/Remote-Programming-of-RaspberryPi-using-PyCharm) -- Gowrishankarnath, 1 May 2015
-
-    **Set up a SSH Remote Interpreter**
-
-
-    **Set up SFTP Auto-Deployment**
++ If you forget or decide not to plug in the network cable, the Raspberry Pi will wait 2 minutes (or until you connect the cable) before completing it’s start-up (so if you only have a keyboard and monitor attached, you need to wait!).
