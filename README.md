@@ -6,7 +6,7 @@ This repository contains example Python3 code, PyCharm IDE settings, and various
 
 Feel free to join the #python-meetup slack channel if you have any questions, comments, or concerns.
 
-A simple example flask app is contained within the app.py file.
+A simple example flask app is contained within the [app.py](https://github.com/lmgobaira/tinkerTankExamples/blob/master/app.py) file.
 
 
 Prerequisites
