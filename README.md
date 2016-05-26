@@ -2,7 +2,7 @@ Tinker Tank Meetup V : Python and Pi
 ==================
 ## Summary
 
-This repository contains example python code, PyCharm IDE settings, and various supporting materials for  Miami - Tinker Tank V: Python Meetup on May 31st 2016.
+This repository contains example Python3 code, PyCharm IDE settings, and various supporting materials for  _Miami - Tinker Tank V: Python_ Meetup.
 
 Feel free to join the #python-meetup slack channel if you have any questions, comments, or concerns.
 
@@ -28,7 +28,7 @@ Follow [this](http://docs.python-guide.org/en/latest/starting/install/win/) guid
 
     `python --version`
 
-If python is setup correctly on your machine the command will respond with the active python version information.
+If Python is setup correctly on your machine the command will respond with the active python version information.
 
 
 ### Setting up PyCharm IDE
