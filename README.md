@@ -28,6 +28,7 @@ Follow [this](http://docs.python-guide.org/en/latest/starting/install/win/) guid
 
 ### Create P2P Network for Local Development
 [Source](https://pihw.wordpress.com/guides/direct-network-connection/)
+
 1. Ensure the Raspberry Pi is powered off, and remove the SD-Card.
 2. Insert the SD-Card into a card reader and plug it into your laptop.
 3. Find the drive and you should find several files on the Card (note it a lot smaller than you’d expect since it is only the boot section of the Card (the rest is hidden)).
@@ -39,7 +40,6 @@ Follow [this](http://docs.python-guide.org/en/latest/starting/install/win/) guid
 For network settings where the IP address is obtained automatically, use an address in the range 169.254.X.X (169.254.0.0 – 169.254.255.255):
 
     ip=169.254.0.2
-
 
 **Ensure you take note of this IP address** (you will need it every time you want to directly connect to the Raspberry Pi).
 
