@@ -2,7 +2,7 @@ Tinker Tank Meetup V : Python and Pi
 ==================
 ## Summary
 
-This repository contains example Python3 code, PyCharm IDE settings, and various supporting materials for  _Miami - Tinker Tank V: Python_ Meetup.
+This repository contains example Python3 code, PyCharm IDE settings, and various supporting materials for  [_Miami - Tinker Tank V: Python_](http://www.meetup.com/Tinker-Tank/events/229876239/) Meetup.
 
 Feel free to join the #python-meetup slack channel if you have any questions, comments, or concerns.
 
